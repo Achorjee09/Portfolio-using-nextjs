@@ -18,7 +18,7 @@ const Contact = () => {
       ...prev,
       [e.target.name]: e.target.value,
     }));
-    setFieldErrors((prev) => ({ ...prev, [e.target.name]: "" })); // টাইপ করার সময় error clear হবে
+    setFieldErrors((prev) => ({ ...prev, [e.target.name]: "" }));
   };
 
   const handleSubmit = (e) => {
