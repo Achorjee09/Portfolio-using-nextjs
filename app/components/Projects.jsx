@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Library Management System",
     description:
-      "Landing page for an eCommerce product with smooth scrolling, CTA buttons, and mobile-first design using Bootstrap.",
+      "Built with HTML, CSS, PHP. Includes User login and registration system, book borrowing system, book management.",
     image: "/images/project-6.jpg",
     link: "https://github.com/Achorjee09/Web-Technology-Project-Library-Management-System",
   },
