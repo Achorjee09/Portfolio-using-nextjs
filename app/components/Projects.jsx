@@ -7,21 +7,21 @@ const projects = [
     description:
       "Built with C# and Windows Form. Includes employee management, product management, and admin panel.",
     image: "/images/project-1.jpg",
-    link: "#",
+    link: "https://github.com/Achorjee09/Object-Oriented-Programming-2-Super-Shop-Management-System",
   },
   {
     title: "Document Management System",
     description:
       "ASP.NET Web API with 3-tier architecture, file uploads, tagging, and advanced search. Follows SOLID principles.",
     image: "/images/project-2.jpg",
-    link: "#",
+    link: "https://github.com/Achorjee09/Advanced-Programming-with-.NET",
   },
   {
     title: "Travel & Hotel Booking System",
     description:
       "Web-based system using Oracle SQL, PL/SQL, HTML/CSS. Includes booking, rooms, transport, and activity modules.",
     image: "/images/project-3.jpg",
-    link: "#",
+    link: "https://github.com/Achorjee09/Advanced-Database-Management-System-Project-GlobeTrekker-A-Travel-Agency-Management-System",
   },
   {
     title: "Personal Portfolio Website",
@@ -35,14 +35,14 @@ const projects = [
     description:
       "Built with C++ and using OpenGL technology. Includes the playing car survive on the roads form any obstacles.",
     image: "/images/project-5.jpg",
-    link: "#",
+    link: "https://github.com/Achorjee09/Computer-Graphics-Project-Car-Rushing-Game",
   },
   {
     title: "Library Management System",
     description:
       "Landing page for an eCommerce product with smooth scrolling, CTA buttons, and mobile-first design using Bootstrap.",
     image: "/images/project-6.jpg",
-    link: "#",
+    link: "https://github.com/Achorjee09/Web-Technology-Project-Library-Management-System",
   },
 ];
 
@@ -79,7 +79,6 @@ export default function Projects() {
                 <a
                   href={project.link}
                   target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-block px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
                 >
                   View Project
