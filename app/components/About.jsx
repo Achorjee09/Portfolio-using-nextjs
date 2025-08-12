@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -16,11 +17,12 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Image */}
           <div className="md:w-1/3 w-full">
-            <img
+            <Image
               src="/images/about-image.png"
               alt="about-image"
-              className="rounded-lg max-w-[350px] w-full h-auto"
-              loading="lazy"
+              width={350}
+              height={350}
+              className="rounded-lg"
             />
           </div>
 
