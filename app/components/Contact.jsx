@@ -99,6 +99,7 @@ const Contact = () => {
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
+                autoComplete="name"
                 className="w-full border px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {fieldErrors.name && <p className="text-red-600 text-sm mt-1">{fieldErrors.name}</p>}
@@ -111,6 +112,7 @@ const Contact = () => {
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleChange}
+                autoComplete="email"
                 className="w-full border px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {fieldErrors.email && <p className="text-red-600 text-sm mt-1">{fieldErrors.email}</p>}
@@ -124,6 +126,7 @@ const Contact = () => {
               placeholder="Subject"
               value={formData.subject}
               onChange={handleChange}
+              autoComplete="off"
               className="w-full border px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             {fieldErrors.subject && <p className="text-red-600 text-sm mt-1">{fieldErrors.subject}</p>}
@@ -136,6 +139,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               rows={6}
+              autoComplete="off"
               className="w-full border px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
             {fieldErrors.message && <p className="text-red-600 text-sm mt-1">{fieldErrors.message}</p>}
