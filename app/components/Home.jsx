@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -37,11 +38,13 @@ const Home = () => {
 
           {/* Image */}
           <div className="lg:w-1/2 p-4 flex justify-center mt-14 sm:mt-14 md:mt-14">
-            <img
+            <Image
               src="/images/Dip.png"
               alt="Dip Achorjee Shokal"
-              className="rounded-lg max-w-[350px] w-full h-auto"
-              loading="lazy"
+              width={350}
+              height={350}
+              priority
+              className="rounded-lg"
             />
           </div>
         </div>
