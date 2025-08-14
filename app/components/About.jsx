@@ -31,10 +31,10 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-4">
               I'm Dip Achorjee Shokal, a Full-Stack Developer
             </h3>
-            <p className="mb-4 text-gray-700 leading-relaxed">
+            <p className="mb-4 text-gray-700">
               I specialize in building dynamic and responsive websites using technologies like React.js, Next.js, Laravel, ASP.NET, Node.js, and more. I enjoy solving problems and continuously learning new technologies to stay updated with industry trends.
             </p>
-            <p className="mb-4 text-gray-700 leading-relaxed">
+            <p className="mb-4 text-gray-700">
               I’ve built systems like a Document Management System, Super Shop Management System, E-Learning Platform, Food Court Management System, and more. I'm always eager to learn and build something impactful.
             </p>
             <a
@@ -66,13 +66,14 @@ const About = () => {
       key={skill.name}
       className="w-28 h-28 flex flex-col items-center bg-white dark:bg-gray-800 rounded-xl p-4 shadow-md hover:shadow-lg transition duration-300"
     >
-                <img
+                <Image
                   src={skill.src}
                   alt={skill.name}
                   width={50}
                   height={50}
+                  className="w-12 h-auto"
                 />
-                <p className="text-gray-700 dark:text-gray-300 text-center">{skill.name}</p>
+                <p className="text-gray-700 text-center">{skill.name}</p>
               </div>
             ))}
           </div>
