@@ -44,7 +44,7 @@ const Home = () => {
               width={350}
               height={350}
               priority
-              className="rounded-lg"
+              className="rounded-lg h-auto w-auto"
             />
           </div>
         </div>
